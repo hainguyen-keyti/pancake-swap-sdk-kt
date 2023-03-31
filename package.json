@@ -1,14 +1,14 @@
 {
-  "name": "@pancakeswap/sdk",
+  "name": "pancakeswap-kt",
   "license": "MIT",
-  "version": "2.4.3",
+  "version": "1.0.5",
   "description": "🛠 An SDK for building applications on top of Pancakeswap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/pancakeswap/pancake-swap-sdk.git",
+  "repository": "https://github.com/hainguyen-keyti/pancake-swap-sdk-kt",
   "keywords": [
     "pancakeswap",
     "bsc"
@@ -54,5 +54,10 @@
     "printWidth": 120,
     "semi": false,
     "singleQuote": true
-  }
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "private": false
 }
